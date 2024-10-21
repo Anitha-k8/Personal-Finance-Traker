@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background: url("https://images5.alphacoders.com/351/351773.jpg");
+background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+   
+    font-weight: bold;
+    background: transparent;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 55px;
+    color: darkmagenta;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+h1:hover{
+    font-size: 60px;
+}
+h2:hover{
+    font-size: 50px;
+}
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 45px;
+    color: darkred;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input[type="number"], input[type="date"], select {
+    padding: 10px;
+    margin-right: 50px;
+    flex: 1;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 10px;
+    border:3px solid brown;
+    width:150px;
+
+
+}
+#amount{
+    color:navy;
+    font-size: 20px;
+    font-weight: bold;
+    border-color:rgb(207, 14, 14);
+}
+#date{
+    color:orangered;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: navy;
+}
+#category{
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+    border-color:orangered;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border:2px solid blue;
+}
+
+table, th, td {
+    border: 1px solid rgb(210, 233, 9);
+    font-weight: bold;
+    margin-left:900px;
+    margin-top: -30px;
+    
+}
+
+td {
+    padding: 10px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(179, 7, 116)
+}
+th{
+    padding: 10px;
+    text-align:center;
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(223, 91, 15);
+}
+th:hover{
+    font-size:40px ;
+    color: darkblue;
+}
+td:hover{
+    font-size: 30px;
+    color:darkmagenta;
+}
+#monthlyBudget{
+width:350px;
+border:3px solid green;
+font-size: 35px;
+font-weight:bold ;
+color:rgb(126, 73, 8);
+}
+#setBudget{
+width:200px;
+border:3px solid rgb(20, 114, 20);
+font-weight:bold ;
+font-size: 28px;
+margin-left: 150px;
+border-radius: 20px;
+
+
+}
+#savingsSummary{
+font-size: 28px;
+font-weight: bold;
+margin-top:-10px;
+
+}
+.heading{
+text-align: center;
+padding-left:1200px;
+margin-top: -1000px;
+}
